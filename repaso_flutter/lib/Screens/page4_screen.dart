@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class Page4_screen extends StatelessWidget {
 
 
-   final options= const ['Grid','Gráficas'];
+   final options= const ['Grid','Gráficas','Pagina1','Grid','Gráficas','Pagina1'];
   const Page4_screen({Key? key}) : super(key: key);
 
   @override
@@ -22,7 +22,7 @@ class Page4_screen extends StatelessWidget {
           margin: EdgeInsets.all(30),
           child: ListView.separated(
             separatorBuilder: (_, index)=>Divider(
-              height: 10,
+              height: 20,
               color: Colors.transparent,
               ), 
             itemCount: options.length,
