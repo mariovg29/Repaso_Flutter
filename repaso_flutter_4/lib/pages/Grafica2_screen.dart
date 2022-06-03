@@ -26,9 +26,7 @@ class _Grafica2State extends State<Grafica2> {
       Grafica(7, 50),
       Grafica(8, 100),
       Grafica(9, 50),
-      Grafica(10, 100),
-      Grafica(11, 50),
-      Grafica(12, 100),
+      
       
     ];
 
